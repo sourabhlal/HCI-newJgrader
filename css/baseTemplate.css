@@ -1,0 +1,31 @@
+
+.leftAlign {
+  float:left;
+}
+.rightAlign {
+  float:right;
+}
+
+.pageHeader{
+	height: 60px;
+	padding: 20px;
+
+	background-color: #789EE8;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+.padMe{
+	width: 50px;
+	padding-top: 20px;
+}
+
+.pageNavBar{
+
+}
+
+.pageBody{
+
+}
