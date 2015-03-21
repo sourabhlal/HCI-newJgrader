@@ -1,0 +1,80 @@
+/*
+Light blue     #4595D1
+Dark blue      #16355E
+Grey           #565656
+
+Status indicators
+red            #ED1F24
+
+Class status indicators
+yellow        #F1EB5B
+light blue    #74E2CC
+light red     #EE5E84
+light green   #7EC573
+light grey    #EFEFF0
+ */
+
+.discFeedHeader{
+	padding-bottom:10px;
+	height: 60px;
+}
+
+	.discFeedTitle{
+		background-color: #EFEFF0;
+		height: 50px;
+		width: 90%;
+		border-radius: 10px;
+		font-size: 20px;
+		text-align: center;
+		padding: 10px;
+	}
+.discFeedMessage{
+}
+	.discFeedStatus{
+		width: 10%;
+		height: 60px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 5px;
+	}
+		.statusIcon{
+			background-color: green;
+			border-radius: 8px;
+			color: green;
+		}
+		.readStatusIcon{
+			background-color: #EFEFF0;
+			border-radius: 8px;
+			color: #EFEFF0;	
+		}
+		.activeStatusIcon{
+			background-color: #F1EB5B;
+			border-radius: 8px;
+			color: #F1EB5B;	
+		}
+	.discFeedActiveBrief{
+		width: 90%;
+		background-color: #F1EB5B;
+		height: 60px;
+		padding: 5px;
+	}
+	.discFeedBrief{
+		width: 90%;
+		background-color: #EFEFF0;
+		height: 60px;
+		padding: 5px;
+	}
+		.discFeedPicture{
+			background-color: red;
+			height:50px;
+			width: 50px;
+		}
+		.discFeedText{
+			height:50px;
+			padding-left: 5px;
+			padding-right: 5px;
+			word-wrap: break-word;
+			font-weight: bold;
+			vertical-align: middle;
+			text-align: center;
+		}
