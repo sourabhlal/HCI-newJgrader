@@ -33,8 +33,6 @@ light grey    #EFEFF0
 .leftPanel{
 	padding-left: 50px;
 	padding-right: 25px;
-	outline-style: solid;
-	outline-color: green;
 	min-width: 25%;
 	max-width: 25%;
 	min-height: 800px;
@@ -44,8 +42,6 @@ light grey    #EFEFF0
 .rightPanel{
 	padding-left: 25px;
 	padding-right: 50px;	
-	outline-style: solid;
-	outline-color: red;
 	min-width: 25%;
 	max-width: 25%;
 	min-height: 800px;
@@ -55,8 +51,6 @@ light grey    #EFEFF0
 .centerPanel{
 	padding-left: 25px;
 	padding-right: 25px;
-	outline-style: solid;
-	outline-color: blue;
 	min-width: 50%;
 	max-width: 50%;
 	min-height: 800px;
