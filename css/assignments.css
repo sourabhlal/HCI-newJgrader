@@ -29,7 +29,7 @@ light grey    #EFEFF0
 
 .assignmentEntry{
 	border: 3px solid #4595D1;
-	height: 100px;
+	height: 140px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
@@ -75,6 +75,7 @@ light grey    #EFEFF0
 .buttonStyle{
 	background-color: #565656;
 	color: white;
+	width: 140px;
 	margin: auto;
 	margin-top: 5px;
 	padding: 3px;
