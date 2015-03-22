@@ -189,10 +189,6 @@ light grey    #EFEFF0
 	color: #16365D;
 }
 
-.row{
-	
-}
-
 .col{
 	text-align: left;
 }
@@ -200,6 +196,11 @@ light grey    #EFEFF0
 .pushed{
 	padding-left: 2px;
 	padding-right: 6px;
+	padding-top: 10px;
+}
+
+.break{
+	padding-top: 10px;
 }
 
 .li{
