@@ -96,14 +96,15 @@ light grey    #EFEFF0
 }
 	.post{
 		background-color: #EFEFF0;
-		min-height: 300px;
+		overflow: auto;
 		border-radius: 15px;
 		padding: 15px;
+		margin-bottom: 10px;
 	}
 		.postMargin1{
 			width: 15%;
-			border-top-left-radius: 15px;
-			border-bottom-left-radius: 15px;
+			border-top-left-radius: 10px;
+			border-bottom-left-radius: 10px;
 		}
 		.postHeader{
 			background-color: white;
@@ -111,7 +112,7 @@ light grey    #EFEFF0
 			padding: 10px;
 			margin-bottom: 1px;
 			min-height: 85px;
-			border-top-right-radius: 15px;
+			border-top-right-radius: 10px;
 		}
 			.postTitle{
 				width: 80%;
@@ -131,23 +132,29 @@ light grey    #EFEFF0
 			background-color: white;
 			padding: 10px;
 			width: 85%;
-			min-height: 150px;
-			border-bottom-right-radius: 15px;
-			border-bottom-left-radius: 15px;
+			overflow: auto;
+			border-bottom-right-radius: 10px;
+			border-bottom-left-radius: 10px;
+			margin-bottom: 10px;
 		}
 		.postMargin2{
-			background-color: red;
 			width: 15%;
-			min-height: 270px;
-
+			min-height: 50px;
+			text-align: right;
+			padding:10px;
 		}
 		.postBody2{
-			background-color: blue;
+			background-color: white;
 			width: 85%;
-			min-height: 270px;
+			padding: 10px;
+			border-radius: 10px;
+			margin-bottom: 10px;
 		}
 	.replies{
-
+		background-color: #EFEFF0;
+		overflow: auto;
+		border-radius: 15px;
+		padding: 15px;
 	}
 
 /**************************************/
