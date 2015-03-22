@@ -20,6 +20,10 @@ light grey    #EFEFF0
 	height: 60px;
 }
 
+#attachFile{
+	visibility: hidden;
+}
+
 	.discFeedTitle{
 		background-color: #EFEFF0;
 		height: 50px;
@@ -28,6 +32,7 @@ light grey    #EFEFF0
 		font-size: 20px;
 		text-align: center;
 		padding: 10px;
+		color: #16355E;
 	}
 .discFeedMessage{
 }
@@ -161,6 +166,56 @@ light grey    #EFEFF0
 
 /**********CSS for rightPanel**********/
 
+/***.discFeedTitle used for consistency***/
+.cat{
+	background-color: #EFEFF0;
+	height: 20px;
+	width: 100%;
+	border-radius: 3px;
+	font-size: 13px;
+	text-align: center;
+	margin-top: 15px;
+	font-weight: bolder;
+	color: black;
+}
+
+.tb{
+	width: 90%;
+	text-align: center;
+	padding-right:10px;
+	font-size:10px;
+	font-weight: bold;
+	border-collapse: collapse;
+	color: #16365D;
+}
+
+.col{
+	text-align: left;
+}
+
+.pushed{
+	padding-left: 2px;
+	padding-right: 6px;
+	padding-top: 10px;
+}
+
+.break{
+	padding-top: 10px;
+}
+
+.li{
+	font-weight: lighter;
+}
+
+.greenText{
+	color: #6CBB4C;
+	font-weight: normal;
+}
+
+.redText{
+	color: #EB242E;
+	font-weight: normal;
+}
 
 /**************************************/
 

@@ -57,6 +57,14 @@ light grey    #EFEFF0
 	word-wrap: break-word
 }
 
+.centerPlusRightPanel{
+  padding-left: 25px;
+  padding-right: 50px;
+  min-width: 75%;
+  max-width: 75%;
+  min-height: 800px;
+  word-wrap: break-word
+}
 .pageHeader{
 	height: 60px;
 	padding-top: 10px;
