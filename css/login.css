@@ -1,0 +1,21 @@
+.footer {
+    position: fixed;
+	bottom: 0;
+    width: 100%;
+	height: 30%;
+	background-color: #EFEFF0;
+	text-align: left;
+	padding-top: 40px;
+	padding-left: 40px;
+	color: #16365D;
+}
+
+.footerTitle {
+	font-size: 20px;
+}
+
+.footerText {
+	width: 325px;
+	word-wrap: normal;
+	float: left;
+}
