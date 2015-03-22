@@ -16,7 +16,18 @@
 
     <!-- Custom styles for this template -->
     <link href="css/baseTemplate.css" rel="stylesheet">
-    <link href="css/submissions.css" rel="stylesheet">
+    <link href="css/assignments.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="deps/colorbox/colorbox.css" />
+
+    <!-- JS Deps -->
+    <script type="text/javascript" src="deps/jquery/jquery.js"></script>
+    <script type="text/javascript" src="deps/colorbox/jquery.colorbox.js"></script>
+
+    <!-- JS Scripts -->
+    <script type="text/javascript">
+        window.main = true; 
+    </script>
+
   </head>
 
   <body>
@@ -56,11 +67,159 @@
             template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template aa
             </p>
         </div>
+
+
+
         <div class="centerPanel leftAlign">
-            <p>
-            template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template aa
-            </p>
+
+            <div class="titleAssignments">
+                View Submissions, Solutions and Feedback
+            </div>    
+
+
+
+            <div class="submissionEntry">
+                <div class="leftData">
+                    <div class="courseTitle">
+                        Software Engineering
+                    </div>
+                    <div class="assignmentTitle">    
+                        Homework 3
+                    </div> 
+                    <div class="deadline">
+                        Deadline: 31.01.15, 11:59pm
+                    </div>    
+                    <div class="instructionsFile">
+                        Instructions file: <a href="http://minds.jacobs-university.de/sites/default/files/uploads/teaching/ML2Spring15/Exercises4_ML2_Spring2015.pdf"><img style="max-width:20px" src="img/attachment.png"/> </a>
+                    </div>
+                </div>
+
+                <div class="rightData">
+                    <a class= "rightAlign" href="view-with-sol.html">
+                        <div class="buttonStyle">
+                            View Submission
+                        </div> 
+                    </a>
+                </div>
+
+            </div>
+
+
+
+            <div class="submissionEntry">
+                <div class="leftData">
+                    <div class="courseTitle">
+                        Machine Learning
+                    </div>
+                    <div class="assignmentTitle">    
+                        Assignment 3
+                    </div> 
+                    <div class="deadline">
+                        Deadline: 08.02.15, 11:59pm
+                    </div>    
+                    <div class="instructionsFile">
+                        Instructions file: <a href="http://minds.jacobs-university.de/sites/default/files/uploads/teaching/ML2Spring15/Exercises4_ML2_Spring2015.pdf"><img style="max-width:20px" src="img/attachment.png"/> </a>
+                    </div>
+                </div>
+
+                <div class="rightData">
+                    <a class= "rightAlign" href="view-with-no-sol.html">
+                        <div class="buttonStyle">
+                            View Submission
+                        </div> 
+                    </a>
+                </div>
+
+            </div>
+
+
+
+            <div class="submissionEntry">
+                <div class="leftData">
+                    <div class="courseTitle">
+                        Human Computer Interaction
+                    </div>
+                    <div class="assignmentTitle">    
+                        Homework 4
+                    </div> 
+                    <div class="deadline">
+                        Deadline: 08.02.15, 11:59pm
+                    </div>    
+                    <div class="instructionsFile">
+                        Instructions file: <a href="http://minds.jacobs-university.de/sites/default/files/uploads/teaching/ML2Spring15/Exercises4_ML2_Spring2015.pdf"><img style="max-width:20px" src="img/attachment.png"/> </a>
+                    </div>
+                </div>
+
+                <div class="rightData">
+                    <a class= "rightAlign" href="view-with-no-sol.html">
+                        <div class="buttonStyle">
+                            View Submission
+                        </div> 
+                    </a>
+                </div>
+
+            </div>
+
+
+
+            <div class="submissionEntry">
+                <div class="leftData">
+                    <div class="courseTitle">
+                        General Computer Science 2
+                    </div>
+                    <div class="assignmentTitle">    
+                        Homework 7
+                    </div> 
+                    <div class="deadline">
+                        Deadline: 09.02.15, 11:59pm
+                    </div>    
+                    <div class="instructionsFile">
+                        Instructions file: <a href="http://minds.jacobs-university.de/sites/default/files/uploads/teaching/ML2Spring15/Exercises4_ML2_Spring2015.pdf"><img style="max-width:20px" src="img/attachment.png"/> </a>
+                    </div>
+                </div>
+
+                <div class="rightData">
+                    <a class= "rightAlign" href="view-with-no-sol.html">
+                        <div class="buttonStyle">
+                            View Submission
+                        </div> 
+                    </a>
+                </div>
+
+            </div>
+
+
+
+            <div class="submissionEntry">
+                <div class="leftData">
+                    <div class="courseTitle">
+                        Databases and Web Application
+                    </div>
+                    <div class="assignmentTitle">    
+                        Project 2
+                    </div> 
+                    <div class="deadline">
+                        Deadline: 10.02.15, 11:59pm
+                    </div>    
+                    <div class="instructionsFile">
+                        Instructions file: <a href="http://minds.jacobs-university.de/sites/default/files/uploads/teaching/ML2Spring15/Exercises4_ML2_Spring2015.pdf"><img style="max-width:20px" src="img/attachment.png"/> </a>
+                    </div>
+                </div>
+
+                <div class="rightData">
+                    <a class= "rightAlign" href="view-with-no-sol.html">
+                        <div class="buttonStyle">
+                            View Submission
+                        </div> 
+                    </a>
+                </div>
+
+            </div>
+
         </div>
+
+
+
         <div class="rightPanel leftAlign">
             <p>
             <table style="width:100%;" class="CSSTableGenerator">
@@ -78,9 +237,30 @@
     </div>
 
 
+
+    <!-- pop-up 1 - submit_fails -->
+    <div style="display:none">
+        <div id='submit_fails' class='failPopup'>
+           Sorry, the file should be smaller than 2MB.
+        </div>
+    </div>
+
+    <!-- pop-up 2 - submit_ok -->
+    <div style="display:none">
+        <div id='submit_ok' class='loadingPopup'>
+            Loading ...
+            <div class="progress">
+              <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                <span class="sr-only">40% Complete (success)</span>
+              </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- Scripts for this template -->
-    <script src="js/jquery-1.11.1.min.js"></script>
-    <script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
     <script src="js/baseTemplate.js"></script>
+    <script src="js/popup.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
