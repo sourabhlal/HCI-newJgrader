@@ -1,0 +1,106 @@
+/*
+Light blue     #4595D1
+Dark blue      #16355E
+Grey           #565656
+Status indicators
+red            #ED1F24
+Class status indicators
+yellow        #F1EB5B
+light blue    #74E2CC
+light red     #EE5E84
+light green   #7EC573
+light grey    #EFEFF0
+ */
+
+/***********CSS for leftPanel***********/
+
+/**************************************/
+
+/**********CSS for centerPanel*********/
+.titleAssignments{
+	border: 3px solid #4595D1;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 5px;
+}
+
+.assignmentEntry{
+	border: 3px solid #4595D1;
+	height: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.leftData{
+	float: left;
+}
+
+.rightData{
+	float: right;
+	margin: 10px;
+}
+
+
+
+.courseTitle{
+	color: #4595D1;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.assignmentTitle{
+	margin-top: 0px;
+	margin-left: 5px;
+	margin-bottom: 0px;
+	font-size: large;
+}
+
+.deadline{
+	margin-top: 0px;
+	margin-left: 5px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
+.instructionsFile{
+	margin-top: 0px;
+	margin-left: 5px;
+	margin-bottom: 0px;
+}
+
+.buttonStyle{
+	background-color: #565656;
+	color: white;
+	margin: auto;
+	margin-top: 5px;
+	padding: 3px;
+	text-align: center;
+}
+
+
+.failPopup{
+	padding:10px; 
+	background-color: #FFFFFF;
+	height: 150px;
+	text-align: center;
+	padding-top: 70px;
+}
+
+.loadingPopup{
+	padding:10px; 
+	background-color: #FFFFFF;
+	height: 150px;
+	text-align: center;
+	padding-top: 70px;
+}
+
+/**************************************/
+
+/**********CSS for rightPanel**********/
+
+
+/**************************************/
