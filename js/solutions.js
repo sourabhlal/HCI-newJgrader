@@ -8,5 +8,6 @@ $(".assignmentOption").each(function() {
     );
 });
 
-
-
+$('#solution').on('click', '.myselector', function(e) {
+    alert('Parameter: ' + $(this).attr('data-param'));
+});
