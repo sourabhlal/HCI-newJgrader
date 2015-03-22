@@ -20,6 +20,10 @@ light grey    #EFEFF0
 	height: 60px;
 }
 
+#attachFile{
+	visibility: hidden;
+}
+
 	.discFeedTitle{
 		background-color: #EFEFF0;
 		height: 50px;
@@ -28,6 +32,7 @@ light grey    #EFEFF0
 		font-size: 20px;
 		text-align: center;
 		padding: 10px;
+		color: #16355E;
 	}
 .discFeedMessage{
 }
