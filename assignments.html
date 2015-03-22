@@ -27,14 +27,16 @@
         window.main = true; 
     </script>
 
-
   </head>
+
+
+
 
   <body>
     <div class="pageHeader">
         <span>JGRADER</span>
         <div class="rightAlign">
-            12:00PM
+            <span id="hours"></span>:<span id="min"></span>:<span id="sec"></span>
         </div>
     </div>
 
@@ -64,12 +66,13 @@
     <div class="pageBody">
         <div class="leftPanel leftAlign">
             <p>
-            template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template aa
+            template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template
             </p>
         </div>
 
 
         <div class="centerPanel leftAlign">
+
             <div class="titleAssignments">
                 Submit Files or Request an Extension
             </div>    
@@ -237,12 +240,35 @@
                 </div>
             </div>
 
+            <div id="pdf">
+                  <object width="800" height="600" type="application/pdf" data="docs/Documentation HCI.pdf" id="pdf_content">
+                    <p>Insert your error message here, if the PDF cannot be displayed.</p>
+                  </object>
+             </div>
+
         </div>
 
 
         <div class="rightPanel leftAlign">
             <p>
-            template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template aa
+            <table style="width:100%;" class="CSSTableGenerator">
+                <tr>
+                    <td cellpadding="10em"><img src="img/blue_square.png" style="width:25px;height:25px"></td>
+                    <td>Request Granted (Blue)</td>
+                </tr>
+                <tr>
+                    <td><img src="img/red_square.png" style="width:25px;height:25px"></td>
+                    <td>Request Pending (Red)</td>
+                </tr>
+                <tr>
+                    <td><img src="img/black_square.png" style="width:25px;height:25px"></td>
+                    <td>Request Denied (Black)</td>
+                </tr>
+                <tr>
+                    <td><img src="img/grey_square.png" style="width:25px;height:25px"></td>
+                    <td>No Request (Grey)</td>
+                </tr>
+            </table>
             </p>
         </div>
     </div>
@@ -264,8 +290,8 @@
 
 
     <!-- Scripts for this template -->
-    <script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
     <script src="js/baseTemplate.js"></script>
+    <script src="js/popup.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 
   </body>

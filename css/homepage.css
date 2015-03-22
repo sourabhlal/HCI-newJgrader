@@ -89,16 +89,72 @@ light grey    #EFEFF0
 	text-align: center;
 	font-size: 16px;
 	color: #16355E;
+	margin-bottom: 10px;
 }
 .forum{
 
 }
 	.post{
 		background-color: #EFEFF0;
-
+		overflow: auto;
+		border-radius: 15px;
+		padding: 15px;
+		margin-bottom: 10px;
 	}
+		.postMargin1{
+			width: 15%;
+			border-top-left-radius: 10px;
+			border-bottom-left-radius: 10px;
+		}
+		.postHeader{
+			background-color: white;
+			width: 85%;
+			padding: 10px;
+			margin-bottom: 1px;
+			min-height: 85px;
+			border-top-right-radius: 10px;
+		}
+			.postTitle{
+				width: 80%;
+				font-size: 20px;
+			}
+			.postSubject{
+				background-color: #F1EB5B;
+				width: 20%;
+				border-radius: 5px;
+				text-align: center;
+				font-weight: bold;
+			}
+			.postAuthor{
+				font-size: 11px;
+			}
+		.postBody1{
+			background-color: white;
+			padding: 10px;
+			width: 85%;
+			overflow: auto;
+			border-bottom-right-radius: 10px;
+			border-bottom-left-radius: 10px;
+			margin-bottom: 10px;
+		}
+		.postMargin2{
+			width: 15%;
+			min-height: 50px;
+			text-align: right;
+			padding:10px;
+		}
+		.postBody2{
+			background-color: white;
+			width: 85%;
+			padding: 10px;
+			border-radius: 10px;
+			margin-bottom: 10px;
+		}
 	.replies{
-
+		background-color: #EFEFF0;
+		overflow: auto;
+		border-radius: 15px;
+		padding: 15px;
 	}
 
 /**************************************/

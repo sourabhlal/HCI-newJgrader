@@ -16,13 +16,14 @@
 
     <!-- Custom styles for this template -->
     <link href="css/baseTemplate.css" rel="stylesheet">
+    <link href="css/submissions.css" rel="stylesheet">
   </head>
 
   <body>
     <div class="pageHeader">
         <span>JGRADER</span>
         <div class="rightAlign">
-            12:00PM
+            <span id="hours"></span>:<span id="min"></span>:<span id="sec"></span>
         </div>
     </div>
 
@@ -62,7 +63,16 @@
         </div>
         <div class="rightPanel leftAlign">
             <p>
-            template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template template aa
+            <table style="width:100%;" class="CSSTableGenerator">
+                <tr>
+                    <td><img src="img/black_square.png" style="width:25px;height:25px"></td>
+                    <td>Graded (Black)</td>
+                </tr>
+                <tr>
+                    <td><img src="img/grey_square.png" style="width:25px;height:25px"></td>
+                    <td>Not yet graded (Grey)</td>
+                </tr>
+            </table>
             </p>
         </div>
     </div>
