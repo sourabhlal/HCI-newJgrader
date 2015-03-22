@@ -34,12 +34,6 @@ light grey    #EFEFF0
 	margin-bottom: 10px;
 }
 
-.submissionEntry{
-	border: 3px solid #4595D1;
-	height: 120px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
 
 .leftData{
 	float: left;
@@ -49,7 +43,6 @@ light grey    #EFEFF0
 	float: right;
 	margin: 10px;
 }
-
 
 
 .courseTitle{
@@ -82,10 +75,10 @@ light grey    #EFEFF0
 .buttonStyle{
 	background-color: #565656;
 	color: white;
-	width: 140px;
+	width: 135px;
 	margin: auto;
-	margin-top: 5px;
-	padding: 3px;
+/*	margin-top: 5px;
+*/	padding: 3px;
 	text-align: center;
 }
 

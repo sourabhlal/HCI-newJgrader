@@ -1,3 +1,56 @@
+/*
+Light blue     #4595D1
+Dark blue      #16355E
+Grey           #565656
+
+Status indicators
+red            #ED1F24
+
+Class status indicators
+yellow        #F1EB5B
+light blue    #74E2CC
+light red     #EE5E84
+light green   #7EC573
+light grey    #EFEFF0
+ */
+
 td {
     padding: 5px;
+}
+
+.extensionEntry{
+	border: 3px solid #4595D1;
+	height: 120px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.extensionPopout{
+	padding:10px; 
+	background-color: #FFFFFF;
+	height: 400px;
+}
+
+.request{
+	background-color: #EFEFF0;
+	margin-top: 80px;
+	height: 310px;
+	clear: both;
+}
+
+.messageDisplay{
+	background-color: #EFEFF0;
+	clear: both;
+	height: 60px;
+	padding-top: 10px;
+}
+
+.messagePopout{
+	padding:10px; 
+	background-color: #FFFFFF;
+	height: 190px;
+}
+
+.fields{
+	margin-left: 10px;
 }
