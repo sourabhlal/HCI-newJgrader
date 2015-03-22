@@ -18,7 +18,7 @@ light grey    #EFEFF0
 
 /**********CSS for centerPanel*********/
 .titleAssignments{
-	border: 3px solid #4595D1;
+	border: 1px solid #4595D1;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	margin-left: auto;
@@ -28,14 +28,14 @@ light grey    #EFEFF0
 }
 
 .assignmentEntry{
-	border: 3px solid #4595D1;
+	border: 1px solid #4595D1;
 	height: 140px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
 .submissionEntry{
-	border: 3px solid #4595D1;
+	border: 1px solid #4595D1;
 	height: 120px;
 	margin-top: 10px;
 	margin-bottom: 10px;
