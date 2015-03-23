@@ -31,7 +31,7 @@ $('#grade').on('click', function() {
 		$( "#grade" ).addClass( "selectedOption" );
 	    $( "#grade" ).removeClass( "assignmentOption" );
 	    $( "#grade" ).css( "background-color", "#808080" );
-    	$("#itemToDisplay").html("grade");
+    	$("#itemToDisplay").html("<div class=\"gradeHeader leftAlign\">Exercise 1<br> (38 Points)</div><div class=\"gradeHeader leftAlign\">Exercise 2<br> (1 Point)</div><div class=\"gradeHeader leftAlign\">Exercise 3<br> (1 Point)</div><div class=\"gradeHeader leftAlign\">Total<br> (40 Points)</div><div class=\"gradeBody leftAlign\">37 (97.36%)</div><div class=\"gradeBody leftAlign\">0 (0.00%)</div><div class=\"gradeBody leftAlign\">0 (0.00%)</div><div class=\"gradeBody leftAlign\">37 (92.50%)</div><div class=\"gradeCommHeader leftAlign\">Comments</div><div class=\"gradeCommBody leftAlign\">Good job, you spent alot of time on the big question. Very interesting method of solving. Good job. I deducted 1 mark from exercise one because your proof could be a little clearer. Tip: If you answer all the questions your grade will improve.</div>");
 });
 
 $('#message').on('click', function() {

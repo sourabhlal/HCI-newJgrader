@@ -54,3 +54,56 @@
 	font-size: 16px;
 	overflow: auto;
 }
+
+.gradeHeader{
+	width: 22%;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 10px;
+	min-height: 75px;
+	background-color: #EFEFF0;
+	text-align: center;
+	font-weight: bold;
+	border-left: 1px solid #4595D1;
+	border-right: 1px solid #4595D1;
+	border-top:  1px solid #4595D1;
+	padding: 15px;
+}
+
+.gradeBody{
+	width: 22%;
+	margin-left: 2px;
+	margin-right: 2px;
+	min-height: 50px;
+	text-align: center;
+	padding: 15px;
+	border-left: 1px solid #4595D1;
+	border-right: 1px solid #4595D1;
+	border-bottom:  1px solid #4595D1;
+}
+
+.gradeCommHeader{
+	width: 50%;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 10px;
+	min-height: 75px;
+	background-color: #EFEFF0;
+	text-align: center;
+	font-weight: bold;
+	border-left: 1px solid #4595D1;
+	border-right: 1px solid #4595D1;
+	border-top:  1px solid #4595D1;
+	padding: 15px;
+}
+
+.gradeCommBody{
+	width: 50%;
+	margin-left: 2px;
+	margin-right: 2px;
+	min-height: 50px;
+	padding: 15px;
+	border-left: 1px solid #4595D1;
+	border-right: 1px solid #4595D1;
+	border-bottom:  1px solid #4595D1;
+}
