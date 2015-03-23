@@ -51,9 +51,10 @@
               <div class="loginHeader">JGrader</div>
               <hr width=90%>
               <span class="loginName">Login</span><br/>
-              <input type="text" name="emailName" value="Email" class="inputText"/><br/>
-              <input type="text" name="emailName" value="Password" class="inputText"/><br/>
-              <input type="submit" value="Login" class="submitText"><br/>
+              <form id="loginform">
+              <input id="emailadd" type="text" name="emailName" placeholder="Email" class="inputText"/><br/>
+              <input id="Password" type="password" name="emailName" placeholder="Password" class="inputText"/><br/>
+              <input type="submit" value="Login" class="submitText"></form><br/>
           </div>
           <div class="proud">
               <span>Proudly presented by HCI</span>
@@ -76,5 +77,6 @@
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
     <script src="js/baseTemplate.js"></script>
+    <script src="js/login.js"></script>
   </body>
 </html>
