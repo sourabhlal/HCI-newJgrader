@@ -41,7 +41,7 @@ $('#message').on('click', function() {
 		$( "#message" ).addClass( "selectedOption" );
 	    $( "#message" ).removeClass( "assignmentOption" );
 	    $( "#message" ).css( "background-color", "#808080" );
-    	$("#itemToDisplay").html("message");
+    	$("#itemToDisplay").html("<form onsubmit=\" alert('Message Sent');return false;\"><div class=\"form-group\"><label for=\"exampleInputEmail1\">Subject:</label><input type=\"email\" class=\"form-control\" id=\"exampleInputEmail1\" placeholder=\"Enter subject\"></div><div class=\"form-group\"><label for=\"exampleInputPassword1\">Message</label><textarea class=\"form-control\" rows=\"8\" cols=\"66\" id=\"exampleInputPassword1\" placeholder=\"Enter message\"></textarea></div><button type=\"submit\" class=\"btn btn-default\">Submit</button></form>");
 });
 
 
