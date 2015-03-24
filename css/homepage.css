@@ -186,7 +186,7 @@ light grey    #EFEFF0
 	font-size:10px;
 	font-weight: bold;
 	border-collapse: collapse;
-	color: #16365D;
+	color: #16355E;
 }
 
 .col{
@@ -208,12 +208,12 @@ light grey    #EFEFF0
 }
 
 .greenText{
-	color: #6CBB4C;
+	color: #7EC573;
 	font-weight: normal;
 }
 
 .redText{
-	color: #EB242E;
+	color: #ED1F24;
 	font-weight: normal;
 }
 

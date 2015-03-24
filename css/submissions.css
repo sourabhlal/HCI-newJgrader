@@ -2,9 +2,19 @@ td {
     padding: 5px;
 }
 
-.submissionEntry{
+br {
+	line-height: 9em;
+}
+
+.submissionEntry {
 	border: 1px solid #4595D1;
 	height: 120px;
 	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+.boxes {
+	float:right;
+	padding-top: 35%;
+	margin-right: -20px;
 }
