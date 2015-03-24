@@ -40,7 +40,7 @@ br {
 
 .assignmentEntry{
 	border: 1px solid #4595D1;
-	height: 140px;
+	overflow: auto;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
@@ -56,11 +56,13 @@ br {
 
 .leftData{
 	float: left;
+	width: 75%
 }
 
 .rightData{
-	float: right;
+	float: left;
 	margin: 10px;
+	width: 20%;
 }
 
 
@@ -94,13 +96,16 @@ br {
 .buttonStyle{
 	background-color: #565656;
 	color: white;
-	width: 135px;
-	margin: auto;
-/*	margin-top: 5px;
-*/	padding: 3px;
+	padding: 3px;
 	text-align: center;
+	width: 100%;
+	margin-bottom: 10px;
+	font-style: arial;
 }
 
+.maxWidth{
+	width: 100%;
+}
 
 .failPopup{
 	padding:10px; 
@@ -116,6 +121,10 @@ br {
 	height: 150px;
 	text-align: center;
 	padding-top: 70px;
+}
+
+#fileToUpload{
+	visibility: hidden;
 }
 
 /**************************************/
