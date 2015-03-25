@@ -1,3 +1,20 @@
+/*
+Light blue     #4595D1
+Dark blue      #16355E
+Grey           #565656
+
+Status indicators
+red            #ED1F24
+
+Class status indicators
+yellow        #F1EB5B
+light blue    #74E2CC
+light red     #EE5E84
+light green   #7EC573
+light grey    #EFEFF0
+ */
+
+
 /**************************************/
 
 /**********CSS for Body**********/
@@ -8,10 +25,11 @@ hr {
 
 .loginForm {
   width: 250px;
-  height: 250px;
+  height: 300px;
   background-color: #4595D1;
   margin: 0 auto;
   margin-top: 100px;
+  padding-top: 10px;
   position: relative;
   transform: translateY(-10%);
 }
@@ -61,19 +79,24 @@ hr {
   background-color: white;
 }
 
-
-
-.proud {
-    position: relative;
-  bottom: 0;
-    width: 100%;
-  text-align: center;
-  margin-bottom: 50px;
-  color: #16365D;
-  margin-top: 50px;
-  line-height: 50px;
+.message{
+  color: #16355E;
+  margin-bottom: 10px;
 }
 
+.selectText{
+  color: white;
+  font-size: 20px;
+  padding-top: 5px;
+  margin-bottom: 10px;
+}
+
+.formSelect{
+  color: white;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 15px;
+}
 
 
 
