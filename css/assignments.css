@@ -132,6 +132,14 @@ light grey    #EFEFF0
 	padding-top: 70px;
 }
 
+.submitOkPop{
+	padding:10px; 
+	background-color: #FFFFFF;
+	height: 150px;
+	text-align: center;
+	padding-top: 70px;
+}
+
 #fileToUpload{
 	visibility: hidden;
 }

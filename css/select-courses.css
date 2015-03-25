@@ -80,7 +80,7 @@ hr {
 }
 
 .message{
-  color: #16355E;
+  color: white;
   margin-bottom: 10px;
 }
 
@@ -89,6 +89,7 @@ hr {
   font-size: 20px;
   padding-top: 5px;
   margin-bottom: 10px;
+  border-top: solid, black;
 }
 
 .formSelect{
