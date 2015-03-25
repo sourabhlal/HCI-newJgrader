@@ -29,6 +29,13 @@ light grey    #EFEFF0
 /**************************************/
 
 /**********CSS for centerPanel*********/
+.instFileButton{
+	width: 40%;
+	margin-left: 10px;
+	margin-top: 10px;
+
+}
+
 .titleAssignments{
 	border: 1px solid #4595D1;
 	margin-top: 10px;
