@@ -68,10 +68,10 @@
     <div class="pageBody">
         <div class="leftPanel leftAlign">
             <p class="boxes">
-            (Submitted) <img src="img/grey_square.png" style="width:25px;height:25px"/><br/>
-            (Non-submitted) <img src="img/grey_square.png" style="width:25px;height:25px"/><br/>
-            (Non-submitted) <img src="img/grey_square.png" style="width:25px;height:25px"/><br/>
-            (Submittedd) <img src="img/grey_square.png" style="width:25px;height:25px"/><br/>
+            (Submitted) <img src="img/grey_square.png" style="width:25px;height:25px"/><br class="custombr"/>
+            (Non-submitted) <img src="img/grey_square.png" style="width:25px;height:25px"/><br class="custombr"/>
+            (Non-submitted) <img src="img/grey_square.png" style="width:25px;height:25px"/><br class="custombr"/>
+            (Submittedd) <img src="img/grey_square.png" style="width:25px;height:25px"/><br class="custombr"/>
             </p>
         </div>
 
@@ -94,10 +94,15 @@
                     </div> 
                     <div class="deadline">
                         Deadline: 07.02.15, 11:59pm
-                    </div>    
-                    <div class="instructionsFile">
-                        Instructions file: <a href="http://minds.jacobs-university.de/sites/default/files/uploads/teaching/ML2Spring15/Exercises4_ML2_Spring2015.pdf"><img style="max-width:20px" src="img/attachment.png"/> </a>
                     </div>
+                    <a class='leftAlign maxWidth' href="http://minds.jacobs-university.de/sites/default/files/uploads/teaching/ML2Spring15/Exercises4_ML2_Spring2015.pdf">
+                        <div class="buttonStyle">
+                            <label for="fileToUpload">
+                                <span class="glyphicon glyphicon-paperclip"> Instructions file</span>
+                            </label> 
+                            <input class= "rightAlign" name="fileToUpload" id="fileToUpload" type="file">
+                        </div> 
+                    </a>
                 </div>
 
                 <div class="rightData">

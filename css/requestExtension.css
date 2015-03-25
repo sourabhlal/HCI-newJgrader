@@ -18,8 +18,8 @@ td {
     padding: 5px;
 }
 
-br {
-	line-height: 9em;
+.custombr {
+	line-height:9em;
 }
 
 .boxes {
