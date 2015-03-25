@@ -14,8 +14,9 @@ light grey    #EFEFF0
 
 /***********CSS for leftPanel***********/
 
-br {
-	line-height:9em;
+
+.custombr {
+	line-height:11em;
 }
 
 .boxes {
