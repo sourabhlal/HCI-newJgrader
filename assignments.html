@@ -116,7 +116,7 @@
                             <input class= "rightAlign" name="fileToUpload" id="fileToUpload" type="file">
                         </div> 
                     </a>
-                    <a class='leftAlign inline maxWidth' href="#submit_fails">
+                    <a class='leftAlign inline maxWidth' href="#submit_ok">
                         <div class="buttonStyle">
                             Submit File
                         </div> 
@@ -145,7 +145,7 @@
                 </div>
 
                 <div class="rightData">
-                    <a class= "leftAlign inline maxWidth" href="#extension-form-valid">
+                    <a class= "leftAlign inline maxWidth" href="#extension-form-invalid">
                         <div class="buttonStyle">
                             Request Extension
                         </div> 
@@ -188,7 +188,7 @@
                 </div>
 
                 <div class="rightData">
-                    <a class= "leftAlign inline maxWidth" href="#extension-form-valid">
+                    <a class= "leftAlign inline maxWidth" href="#extension-form-invalid">
                         <div class="buttonStyle">
                             Request Extension
                         </div> 
@@ -231,7 +231,7 @@
                 </div>
 
                 <div class="rightData">
-                    <a class= "leftAlign inline maxWidth" href="#extension-form-valid">
+                    <a class= "leftAlign inline maxWidth" href="#extension-form-invalid">
                         <div class="buttonStyle">
                             Request Extension
                         </div> 
@@ -294,7 +294,9 @@
 
 
 
-        <!-- pop-up 1 - Invalid - ML -->
+
+
+    <!-- pop-up 1 - Invalid - ML -->
     <div style="display:none">
         <div id='extension-form-invalid' class='extensionPopout'>
         
@@ -322,7 +324,7 @@
                     <textarea rows="8" cols="66">
                     </textarea> 
                     <a class="inline" href="#extension-form-invalid-message">
-                        <div class="buttonStyle">
+                        <div class="buttonStyle" style="width: 135px;">
                             Submit
                         </div>
                     </a>
@@ -361,8 +363,8 @@
                     </form>
                     <textarea rows="8" cols="66">
                     </textarea> 
-                    <a href="assignments.html">
-                        <div class="buttonStyle">
+                    <a class="inline" href="#extension-form-valid-message">
+                        <div class="buttonStyle" style="width: 135px;">
                             Submit
                         </div>
                     </a>
@@ -394,18 +396,53 @@
                     <center>
                     Sorry, your requested date and time for the extension are not valid. Please try again.
                     </center>
-                    
+
                 </div>
             </div>
             <br>
             <a class="inline" href="#extension-form-invalid">
-                <div class="buttonStyle">
+                <div class="buttonStyle " style="width: 135px;">
                     Go Back
                 </div>
             </a>
 
         </div>
     </div>
+
+
+    <!-- pop-up 3 - Valid Extension Message - Software Engineering -->
+    <div style="display:none">
+        <div id='extension-form-valid-message' class='messagePopout'>
+        
+            <div class="leftAlign">
+                <div class="courseTitle">
+                    Software Engineering
+                </div>
+                <div class="assignmentTitle">    
+                    Homework 4
+                </div>
+                <div class="deadline">
+                    Deadline: 07.02.15, 11:59pm
+                </div>
+            </div>
+            <br>
+            <div class="messageDisplay">
+                <div class="fields">
+                    <center>
+                   Request Extension Successful!
+                    </center>
+                </div>
+            </div>
+            <br>
+            <a href="assignments.html">
+                <div class="buttonStyle " style="width: 135px;">
+                    Go Back
+                </div>
+            </a>
+
+        </div>
+    </div>
+
 
 
     <!-- Scripts for this template -->
