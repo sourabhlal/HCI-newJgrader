@@ -17,6 +17,17 @@
     <!-- Custom styles for this template -->
     <link href="css/baseTemplate.css" rel="stylesheet">
     <link href="css/select-courses.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="deps/colorbox/colorbox.css" />
+
+    <!-- JS Deps -->
+    <script type="text/javascript" src="deps/jquery/jquery.js"></script>
+    <script type="text/javascript" src="deps/colorbox/jquery.colorbox.js"></script>
+
+    <!-- JS Scripts -->
+    <script type="text/javascript">
+        window.main = true; 
+    </script>
+
   </head>
 
   <body>
@@ -58,17 +69,23 @@
             </div>
 
             <div class="formSelect">
-              <form action="homepage.html">
-              <input type="checkbox"> Software Engineering <br>
-              <input type="checkbox"> Machine Learning <br> 
-              <input type="checkbox"> HCI <br>
-              <input type="checkbox"> General Computer Science 2 <br> <br>
-              <input type="submit" value="Request Enrollment" class="submitText">
+              <form action="">
+                <input type="checkbox"> Software Engineering <br>
+                <input type="checkbox"> Machine Learning <br> 
+                <input type="checkbox"> HCI <br>
+                <input type="checkbox"> General Computer Science 2 <br> <br>
               </form>
             </div>
 
+            <a class='leftAlign inline maxWidth' href="#valid-request">
+              <div class="buttonStyle">
+                Request Enrollment
+              </div> 
+            </a>
+
           </div>
       </div>
+
       <div class="footer">
           <span class="footerTitle">About JGrader</span>
           <br><br>
@@ -82,10 +99,24 @@
     </div>
 
 
+    <div style="display:none">
+        <div id='valid-request' class='popup'>
+          Enrollment Request Submitted!
+          <br>
+    
+          <a href="homepage.html">
+              <div class="buttonStyle " style="width: 135px; allign-text: center">
+                Go to Homepage
+              </div>
+          </a>
+
+        </div>
+    </div>
+
+
     <!-- Scripts for this template -->
-    <script src="js/jquery-1.11.1.min.js"></script>
-    <script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
     <script src="js/baseTemplate.js"></script>
-    <script src="js/login.js"></script>
+    <script src="js/popup.js"></script>
+
   </body>
 </html>
