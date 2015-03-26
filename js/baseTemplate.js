@@ -12,3 +12,9 @@ setInterval( function() {
 	$("#hours").html(( hours < 10 ? "0" : "" ) + hours);
     }, 1000);	
 });
+
+
+$("#triggerLoading").click(function(){
+    $(".progress-bar").animate({width: "100%"}, 5000);
+    setTimeout(function(){$(".loadingPopup").html("File successfully submitted! To submit another file, please refresh the page.");}, 5000 );
+});
